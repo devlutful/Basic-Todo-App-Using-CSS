@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    min-height: 100%;
+    background: radial-gradient(white, gray);
+    font-family: 'New Tegomin', serif;
+}
+
+
+.wrapper {
+    width: 300px;
+    margin: 50px auto;
+    height: 350px;
+    border: solid 8px black;
+    border-radius: 15px;
+    background: white;
+    
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background: linear-gradient(#f63, white);
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: dashed 2px black;
+}
+span {
+    padding: 2px;
+    display: block;
+    height: 90%;
+    width: 100%;
+}
+
+.wrap-list {
+    height: 85%;
+    width: 100%;
+    border-radius: 0 0 10 10;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    top : 14px;
+    right: 12px;
+    float: right;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    opacity: 0.6;
+    
+}
+
+.list {
+    list-style: none;
+    color: rgba(0,0,0, 0.7)
+}
+
+.list li {
+    float: left;
+    width: 100%;
+    
+}
+
+label {
+    padding: 10px;
+    float: left;
+    font-weight: bold
+}
